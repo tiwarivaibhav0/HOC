@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 
-function Login() {
+function Login(props:any) {
   return (
     <div>
       <h1>Login</h1>

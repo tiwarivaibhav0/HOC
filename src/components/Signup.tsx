@@ -1,7 +1,8 @@
 import React from "react";
 import Layout from "./Layout";
 
-const Signup = () => {
+const Signup = (props:any) => {
+  console.log(props)
   return (
     <div>
       <h1>SignUp</h1>

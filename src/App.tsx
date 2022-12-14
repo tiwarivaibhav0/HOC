@@ -4,11 +4,11 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 
 function App() {
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState<boolean>(false);
   return (
     <div className="App">
       {login ? (
-        <Login login={login} setLogin={setLogin}  />
+        <Login login={login} setLogin={setLogin} />
       ) : (
         <Signup login={login} setLogin={setLogin} />
       )}
